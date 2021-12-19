@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>下载 GraphLC IDE</title>
+<link rel="shortcut icon" href="img/icon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<!-- css -->
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jcarousel.css" rel="stylesheet" />
+<link href="css/flexslider.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+ 
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div id="wrapper">
+	<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">主页</a></li>
+						<li class="active"><a href="">下载</a></li>
+                        <li><a href="https://www.cnblogs.com/Return-blog/p/glc.html" target="_blank">食用方法</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 class="pageTitle">下载</h2>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="pricing-box-item activeItem">
+					<div class="pricing-heading">
+						<h3><strong>GCloud Preview 5.1</strong></h3>
+					</div>
+					<div class="pricing-container">
+						<ul>
+							<li><i class="icon-ok"></i>免费注册</li>
+							<li><i class="icon-ok"></i>支持共享文件</li>
+							<li><i class="icon-ok"></i>上传、下载不限速</li>
+							<li><i class="icon-ok"></i>可拓展存储空间</li>
+						</ul>
+					</div>
+					<div class="pricing-action">
+						<a href="Download/GCloud/gcloud_0_2_1_39_win_x86.zip" class="btn btn-medium"><i class="icon-bolt"></i>Win-x86</a>
+						<a href="Download/GCloud/gcloud_0_2_1_39_win_x64.zip" class="btn btn-medium"><i class="icon-bolt"></i>Win-x64</a>
+						<a href="Download/GCloud/gcloud_0_2_1_39_linux_x64.zip" class="btn btn-medium"><i class="icon-bolt"></i>Linux-x64</a>
+						<a href="Download/GCloud/gcloud_0_2_1_39_osx_x64.zip" class="btn btn-medium"><i class="icon-bolt"></i>OSX-x64</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="pricing-box-item">
+					<div class="pricing-heading">
+						<h3><strong>GraphLC IDE 2021 Preview 6</strong></h3>
+					</div>
+					<div class="pricing-container">
+						<ul>
+							<li><i class="icon-ok"></i>可拓展和可定制</li>
+							<li><i class="icon-ok"></i>内置终端、评测器</li>
+							<li><i class="icon-ok"></i>自动检查语法错误</li>
+							<li><i class="icon-ok"></i>自动配置模块</li>
+						</ul>
+					</div>
+					<div class="pricing-action">
+						<a href="Download/GraphLC_IDE_2021_P6_5_0_6_114_win_x64.exe" class="btn btn-medium"><i class="icon-bolt"></i>Win-x64</a>
+						<a href="Download/GraphLC_IDE_2021_P6_5_0_6_114_win_x86.exe" class="btn btn-medium"><i class="icon-bolt"></i>Win-x86</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row"> 
+            <div class="col-md-12">
+            	<div>
+            		<h2 id="如何安装">如何安装</h2>
+            		<ol>
+					<li>从上面的链接下载安装包，并运行（注意最好不要把IDE装在需要管理员权限的目录，否则需要给 <code>GraphLC IDE.exe</code> 和 <code>Bin\GCloud\GCloud.exe</code> 管理员权限）。</li>
+					<li>安装完成后以管理员模式运行 <code>GraphLC IDE</code>（安装模块需要管理员权限，正常使用则不需要），注册一个 <code>GCloud</code> 账号用于同步代码，然后点击 <code>设置-模块管理器</code> 安装模块，勾选 <code>Cpp</code> 以及 <code>GCC11.2</code>（如果电脑是<code>32位</code>的则勾选<code>GCC11.2 Win-x86</code>），点击修改，等待安装完成后重启 <code>IDE</code> 即可。</li>
+					</ol>
+					<h2 id="如何更新">如何更新</h2>
+					<ol>
+					<li>卸载 Pre 5</li>
+					<li>运行 <code>Pre 6</code> 的安装包</li>
+					<li>通过模块管理器安装 <code>C++</code> 模块</li>
+					<li>如果您之前通过模块管理器安装过 <code>GCC 11</code>，则保留  <code>GraphLC IDE 2021 Preview 4\Config\Environment</code> 目录（或者将 <code>Environment</code> 文件夹移动到 <code>Pre 5</code> 的 <code>Config</code> 目录下，并修改环境变量）</li>
+					</ol>
+            	</div>
+            	<!--<div>
+                    <h2>GCloud命令行 使用教程</h2>
+                    <h3>下载 & 配置</h3>
+                    <ol>
+                        <li><p>下载您使用的系统对应的GCloud版本 (如 Windows 64位 就选择 Win-x64, Linux 64位 就选择 Linux-x64)</p></li>
+                        <li><p>解压zip包, 如果您使用 Windows 系统，右键 GCloud.exe 选择以管理员身份运行，GCloud 将自动配置环境变量</p></li>
+                    </ol>
+                    
+                    <h3>注册账户</h3>
+                    <p>打开终端(Linux/MacOS) / PowerShell / Cmd (Windows)</p>
+                    <p>依次输入如下命令</p>
+                    <ol>
+                        <li><p>gcloud mail [你的邮箱]</p></li>
+                        <li><p>gcloud verify [你的邮箱] [邮箱收到的验证码]</p></li>
+                        <li><p>gcloud reg [用户名] [密码] [你的邮箱]</p></li>
+                    </ol>
+                    <p>完成注册，接着输入 &nbsp;gcloud login [用户名] [密码]&nbsp; 即可登录你的账户</p>
+                    <p style="color:green">您可以输入 gcloud help 来查看帮助</p>
+                </div>-->
+            </div>
+        </div>
+	</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12" style="text-align: right">
+					<p><a href="http://1.116.217.97/">Hikari OJ</a></p>
+					<p>bug 反馈群 : 1143651106</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script> 
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
